@@ -54,7 +54,7 @@
       {
         "type": "os",
         "key": "{#90}{$1}│ {#93}OS          {#90}│",
-        "format": "{$2}{$3}{?pretty-name}{pretty-name}{?}{/pretty-name}{name}{/} {codename}  {#2}[v{version}] [{arch}]"
+        "format": "{$2}{$3}{?pretty-name}{pretty-name}{?}{/pretty-name}{name}{/} {codename}"
       },
       {
         "type": "kernel",
@@ -110,38 +110,38 @@
         "key": "{#90}{$1}│ {#95}Shell       {#90}│",
         "format": "{$2}{$3}{pretty-name}  {#2}[v{version}] [PID:{pid}]"
       },
-      {
+      // {
         // localip IPv4
-        "type": "localip",
-        "key": "{#90}{$1}│ {#94}Local IPv4  {#90}│",
-        "showPrefixLen": true,
-        "showIpv4": true,
-        "showIpv6": false,
-        "showMtu": true,
-        "format": "{$2}{$3}{ifname}: {ipv4}  {#2}[MTU:{mtu}]"
-      },
-      {
+      //  "type": "localip",
+      //  "key": "{#90}{$1}│ {#94}Local IPv4  {#90}│",
+      //  "showPrefixLen": true,
+      //  "showIpv4": true,
+      //  "showIpv6": false,
+      //  "showMtu": true,
+      //  "format": "{$2}{$3}{ifname}: {ipv4}  {#2}[MTU:{mtu}]"
+      // },
+      // {
         // localip IPv6
-        "type": "localip",
-        "key": "{#90}{$1}│ {#94}Local IPv6  {#90}│",
-        "showPrefixLen": true,
-        "showIpv4": false,
-        "showIpv6": true,
-        "showMtu": true,
-        "format": "{$2}{$3}{ifname}: {ipv6}  {#2}[MTU:{mtu}]"
-      },
-      {
-        "type": "publicip",
-        "key": "{#90}{$1}│ {#94}Public IPv4 {#90}│",
-        "ipv6": false,
-        "format": "{$2}{$3}{ip}  {#2}[{location}]"
-      },
-      {
-        "type": "publicip",
-        "key": "{#90}{$1}│ {#94}Public IPv6 {#90}│",
-        "ipv6": true,
-        "format": "{$2}{$3}{ip}  {#2}[{location}]"
-      },
+      //  "type": "localip",
+      //  "key": "{#90}{$1}│ {#94}Local IPv6  {#90}│",
+      //  "showPrefixLen": true,
+      //  "showIpv4": false,
+      //  "showIpv6": true,
+      //  "showMtu": true,
+      // "format": "{$2}{$3}{ifname}: {ipv6}  {#2}[MTU:{mtu}]"
+      // },
+      // {
+      //  "type": "publicip",
+      //  "key": "{#90}{$1}│ {#94}Public IPv4 {#90}│",
+      //  "ipv6": false,
+      //  "format": "{$2}{$3}{ip}  {#2}[{location}]"
+      // },
+      // {
+      //  "type": "publicip",
+      //  "key": "{#90}{$1}│ {#94}Public IPv6 {#90}│",
+      //  "ipv6": true,
+      //  "format": "{$2}{$3}{ip}  {#2}[{location}]"
+      // },
       // CUSTOM - Button UI bar
       {
         "type": "custom",
