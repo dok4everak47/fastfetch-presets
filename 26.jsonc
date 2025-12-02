@@ -113,7 +113,7 @@
         "showIpv4": true,
         "showIpv6": false,
         "showMtu": true,
-        "format": "{$1}{ifname}: {ipv4}  {#2}[MTU:{mtu}]"
+        "format": "{$1}{ifname}: {ipv4}"
       },
       {
         // localip IPv6
@@ -123,7 +123,7 @@
         "showIpv4": false,
         "showIpv6": true,
         "showMtu": true,
-        "format": "{$1}{ifname}: {ipv6}  {#2}[MTU:{mtu}]"
+        "format": "{$1}{ifname}: {ipv6}  "
       },
       // CUSTOM - Button UI bar
       {
