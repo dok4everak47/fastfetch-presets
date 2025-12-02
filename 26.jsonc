@@ -125,18 +125,6 @@
         "showMtu": true,
         "format": "{$1}{ifname}: {ipv6}  {#2}[MTU:{mtu}]"
       },
-      {
-        "type": "publicip",
-        "key": "{#90}│ {#94}Public IPv4 {#90}│",
-        "ipv6": false,
-        "format": "{$1}{ip}  {#2}[{location}]"
-      },
-      {
-        "type": "publicip",
-        "key": "{#90}│ {#94}Public IPv6 {#90}│",
-        "ipv6": true,
-        "format": "{$1}{ip}  {#2}[{location}]"
-      },
       // CUSTOM - Button UI bar
       {
         "type": "custom",
